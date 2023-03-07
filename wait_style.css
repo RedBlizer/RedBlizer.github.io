@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(153, 102, 255);
+}
+
+div.logo,.text{
+    text-align:center;
+}
+
+div.text table{
+    background-color:rgb(102, 255, 255);
+}
+
+.image{
+    height:50px;
+}
+
+div.logo img{
+    width:800px;
+    top:0;
+}
+
+h2{
+    /*display:inline;*/
+    /*text-align:center;*/
+    vertical-align:text-top;
+    color:purple;
+}
+
+button{
+    /*padding-left:10px;*/
+    border:1px solid;
+    color: #c54646;
+    background-color: #ccccd0;
+    width:100px;
+    height:30px;
+}
+button:hover{
+    color: green;
+}
