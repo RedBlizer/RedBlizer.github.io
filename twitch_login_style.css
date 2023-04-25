@@ -1,0 +1,56 @@
+body{
+    background-color: #f7f7f8;
+}
+
+.frame{
+    background-color:white;
+    margin:-10px;
+    padding:10px;
+    /*color:blue;*/
+    width:481px;
+    height:392px;
+}
+
+.head_box{
+    display:flex;
+    justify-content: center;
+    width:481px;
+    height:55px;
+}
+
+.box_frame, .box_thing{
+    width:421px;
+    height:50px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    display:inline;
+}
+
+.Login-title{
+    width:129px;
+    height:29px;
+    /*display:inline;*/
+}
+
+h4{
+    font-size:20px;
+    text-align: justify;
+}
+
+input,button{
+    width:98%;
+    background: #e8e8e8;
+    border:hidden;
+    border-radius:3px;
+}
+
+button{
+    background: #f7f7f8;
+}
+button:hover{
+    background-color:gray;
+    color: yellow;
+}

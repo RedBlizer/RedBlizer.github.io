@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch_login</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="twitch_login_style.css">
+</head>
+<body>
+    <script>
+        function noticeMe() {
+            alert('小心，這有可能會是詐騙!');
+        }
+    </script>
+    <div style="display:flex;justify-content: center">
+        <div style="max-width: 37em;margin: 0px auto;">
+            <div class="frame">
+                <div class="head_box">
+                    <div class="box_frame">
+                        <div class="box_thing" style="display:flex;justify-content: center;">
+                            <img class="icon" src="twitch_icon.png" alt="icon">
+                            <div class="Login-title" style="width:129px;height:29px;">
+                                <h4 id="modal-root-header" class="CoreText" style="width:129px;">登入 Twitch</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Layout-sc-1xcs6mc-0 gUnRUD">
+                    <div data-a-target="tab-container" class="dRZPzM">
+                        <div class="dCqCVk tw-tabs">
+                            <p class="CoreText-tw-title" style="color:blue">登入</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="Layout-sc-1xcs6mc-0 hrNxVf">
+                    <form novalidate>
+                        <div class="Layout-fjSgc">
+                            <div class="Layout-fVcPlA">
+                                <div class="Layout-sc-1xcs6mc-0">
+                                    <div class="Layout-fmejaR">
+                                        <div class="Layout-fGCgaq">
+                                            <label class="ScFormLabel-tw-form-label" for="login-username">使用者名稱</label>
+                                        </div>
+                                    </div>
+                                    <div data-a-target="login-username" class="input_box">
+                                        <input aria-label="請輸入您的使用者名稱" type="text" class="tw-input" autocapitalize="off" autocorrect="off" autocomplete="username" data-a-target="tw-input" id="username" value>
+                                    </div>
+                                    <div role="status" aria-live="polite">
+                                        <p class="CoreText InjectLayout-cixGyF"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Layout-fVcPlA">
+                                <div class="Layout-login-password-input">
+                                    <div class="Layout-sc-1xcs6mc-0">
+                                        <div class="Layout-fmejaR password-input__label">
+                                            <div class="Layout-fGCgaq">
+                                                <label class="ScFormLabel-tw-form-label" for="password-input">密碼</label>
+                                            </div>
+                                        </div>
+                                        <div class="Layout-bZVrjx password-input__container">
+                                            <div data-a-target="login-password-input" class="input_box">
+                                                <input aria-label="輸入您的密碼" type="password" class="tw-input--password" autocapitalize="off" autocorrect="off" autocomplete="current-password" data-a-target="tw-input" id="password-input" spellcheck="false" value>
+                                            </div>
+                                        </div>
+                                        <div role="status" aria-live="polite">
+                                            <p class="CoreText-cixGyF"></p>
+                                        </div>
+                                    </div>
+                                    <div class="Layout-sc-1xcs6mc-0 gUnRUD">
+                                        <a class="ScCoreLink-tw-link" rel="noopener noreferrer" target="_blank" href="https://www.twitch.tv/user/account-recovery">
+                                            <p class="CoreText-sc-1txzju1-0 llpCRa">無法登入嗎？</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <button onclick="setTimeout(noticeMe,1000);">登入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
